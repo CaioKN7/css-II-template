@@ -16,6 +16,15 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
+  }
+
+  aside{
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #abd1c6;
   }
   
   section{
@@ -29,9 +38,27 @@
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
   }
+
+  footer:hover{
+    background-color: rgb(244, 244, 103);
+  }
+
+  section.josias:active{
+    background-color: rgb(55, 173, 134);
+  }
+
+.texto-centralizado{
+  text-align: center;
+}
+
+button{
+  border: none;
+}

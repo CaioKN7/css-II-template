@@ -1,0 +1,36 @@
+/* RESUMO
+
+combinadores>
+-agrupamento de seletores: 
+h1, h2, p, span{
+    propriedadesCss: valor;
+}
+
+seletores compóstos>
+
+tag.classe{
+    propriedadesCss: valor;
+}
+
+tag#classe{
+    propriedadesCss: valor;
+}
+
+*/
+
+h1,h2,h3,h4,h5,h5,h6,p{
+    color: orange;
+}
+
+h2.texto-com-background{
+    background-color: yellow;
+}
+
+h2#texto-com-outra-cor{
+    color: green;
+}
+
+
+body h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
